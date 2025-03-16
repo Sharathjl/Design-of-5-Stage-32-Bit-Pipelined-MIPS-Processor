@@ -55,6 +55,7 @@ HLT // Halt execution
 ```
 
 ## ▫️ Instruction Encoding   
+![ISR](https://github.com/Sharathjl/Design-of-5-Stage-32-Bit-Pipelined-MIPS-Processor/blob/main/insyructions.png)
 - shamt : shift amount, funct : opcode extension for additional functions.
 - Some instructions require two register operands rs & rt as input, while some require only rs. 
 - This requirement is only identified only after the instruction is decoded. 
